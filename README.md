@@ -45,5 +45,7 @@ FastLearning, a peer-to-peer services company wants to use machine learning to p
 
 ## Summary
 As can be seen above, the best performer is the AdaBoost Classifier, with the best balanced accuracy score, as well as f1. It is also the model returning the least false positives and false negatives, as can be seen in its confusion matrix:
+
 ![screenshot of confusion matrix](confusion-matrix.png)
+
 However, with recall rates of 90% and 94% for each positive and negative detection, it may be worthwhile to explore if there are better predictive models, given that the AdaBoost Classifier would flag around 6% of low risk applications.
